@@ -184,3 +184,19 @@ h1, h2, h3, h4, h5, p, div {
     animation-duration: 4s;
     animation-name: openPage;
 }
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .container-book {
+        width: 92%;
+        height: 70%;
+        background: white;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+        border-radius: 20px;
+        -webkit-box-shadow: -1px 0px 53px -22px rgb(0 0 0 / 75%);
+        -moz-box-shadow: -1px 0px 53px -22px rgba(0,0,0,0.75);
+        box-shadow: -1px 0px 53px -22px rgb(0 0 0 / 75%);
+        display: flex;
+    }
+} 
