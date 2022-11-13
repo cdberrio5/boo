@@ -22,6 +22,9 @@ const load = async () => {
 
         firstPage.classList.toggle('page-passed');
 
+        document.getElementById('video1').play();
+        document.getElementById('video2').play();
+
         setTimeout(() => {
             firstPage.classList.toggle("page-none");
             page += 1;
@@ -40,7 +43,7 @@ const load = async () => {
             } else {
                 alert("Has llegado hasta el fin :3 espero te haya gustado y fuerza princesa.");
             }
-        }, 24000);
+        }, 27000);
     }
 }
 
